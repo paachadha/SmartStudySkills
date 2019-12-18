@@ -16,6 +16,7 @@ body {
 .container {
     width:80%;
     margin: 0 auto;
+
 }
 
 body {background-color: peachpuff;}
@@ -31,6 +32,10 @@ body {background-color: peachpuff;}
         border: solid;
     width: 91%;
     
+}
+
+.skill li{
+     text-align: left;
 }
 
 
@@ -51,6 +56,7 @@ body {background-color: peachpuff;}
     text-decoration: none;
     font-size: 1.2em;
     color: orange;
+
 }
 
 .site-nav ul{
@@ -74,7 +80,7 @@ h1 {
   line-height: 1;
   margin: 0 0 0.5em 0;
     color: green;
-    text-align: center;
+
 }
 
 h2 {
@@ -98,6 +104,8 @@ h3 {
   line-height: 1;
   margin: 1.5em 0 0.25em 0;
     color: orange;
+  text-align:center;
+
 }
 
 h4 {
@@ -127,9 +135,9 @@ h5 {
 
 
 
+.attractor{
 
-
-
-
+    text-align: center;
+}
 
 
