@@ -2,144 +2,254 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:700');
 @import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
+
+/*
+==================================
+Base Typography
+=================================
+*/
 html {font-size: 1em;}
 
 body {
-  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Arial black', serif;
   font-weight: 400;
   line-height: 1.5;
+
+    background-color: ;
   color: #333;
+    margin: 20px;
   
 }
-
-.container {
-    width:80%;
-    margin: 0 auto;
-
-}
-
-body {background-color: peachpuff;}
-
-
-.skill {
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 4px;
-        margin: 3%;
-    padding: 1%;
-        border: solid;
-    width: 91%;
-    
-}
-
-.skill li{
-     text-align: left;
-}
-
-
-
-
-.intro {
-    text-align: center
-}
-
-.site-nav li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 6%;
-    text-align: center;
-}
- 
-.site-nav a {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: orange;
-
-}
-
-.site-nav ul{
-    width: 22%;
-    margin: 0 auto;
-    
-}
-
 p, li {
   margin-top: 0;
   margin-bottom: 1em;
 }
 
-
-
-
 h1 {
-  font-family: Lato, sans-serif;
+    text-align:center;
+  font-family:Arial black, san-serif;
     font-weight: 700;
     font-size: 5.063em;
   line-height: 1;
   margin: 0 0 0.5em 0;
-    color: green;
-
+    color: forestgreen;
+    text-align: center;
 }
 
 h2 {
+    text-align:left;
   font-weight: 700;
   font-family: Lato, sans-serif;
     font-weight: 700;
   font-family: Lato, sans-serif;
-    font-size: 2.25em;
-  line-height: 1.2;
+    font-size: 4.25em;
+  line-height: 1;
   margin: 1.5em 0 0.5em 0;
-    text-align: left;
-    color: orange;
+
+    color: sandybrown;
     margin-left: 1em;
 }
 
-h3 {
-  
+h7 {
+    text-align:center;
     font-weight: 700;
   font-family: Lato, sans-serif;
-    font-size: 2.25em;
+    font-size:2.25em;
   line-height: 1;
-  margin: 1.5em 0 0.25em 0;
-    color: orange;
-  text-align:center;
+    color: green;
+    
+    
+}
 
+
+h3 {
+    font-weight: 700;
+  font-family: Lato, sans-serif;
+    font-size:2.25em;
+  line-height: 1;
+    color: green;
 }
 
 h4 {
+    text-align:center;
+    color:black;
+    font-size: 1.2em;
     
-    color:blue;
-    font-size: 1.5em;
 }
 
 
 h5 {
-    
-    color: blue;
+   text-align:center;
+    color: black;
     font-size: 1.5em;
 }
 
-
-.image{
-    width: 91%;
-    height: 300px;
-    margin: 5% 0;
-}
-
-.image img{
-    width: 100%;
-    height: 100%;
+.video2{
+    
+    text-align: center;
+    color: sandybrown;
+    font-size: 2em;
 }
 
 
+/*
+==================================
+Start Navigation
+=================================
+*/
+
+.site-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: sandybrown;
+}
+
+.site-nav li {
+  float: left;
+}
+
+.site-nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+}
+
+
+.site-nav li a:hover {
+  background-color:white;
+}
+
+/*END NAVIGATION ===========*/
 
 .attractor{
 
     text-align: center;
+    font-size: 4.2em;
+    font-family: 'Indie Flower', cursive;
+    font-weight:800;
+    color:sandybrown
 }
 
 
+
+/*
+==================================
+Site layout
+=================================
+*/
+
+
+
+
+.container {
+/*    width:80%;*/
+    margin: 0 auto;
+}
+
+.studyskills {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 2rem;
+	 
+}
+
+.skill3 {
+
+    display: grid;
+    text-align: center;
+    grid-gap: 2px;
+        margin: 11%;
+
+/*        border: solid;*/
+   width: 75%;
+  background-color: #FFEFE6;
+	padding: 12px;
+    }
+   
+
+
+.skills2{
+    padding-bottom: px;
+}
+
+
+.intro {
+    text-align: center
+    line-height: 2px;  
+    text-align:center;
+    padding-top:15px;
+}
+
+.introset {
+    
+    padding-top:25px;
+}
+
+
+/*
+==================================
+Home Page styling
+=================================
+*/
+
+img {
+  max-width: 100%;
+  height: auto;
+    border-radius: 50%
+}
+
+/*END home page ===========*/
+
+.videos{
+    
+    text-align: center;
+     
+}
+
+
+
+
+/*
+==================================
+Skill pages styling
+=================================
+*/
+
+
+    
+
+/*END Skill pages ===========*/
+
+
+
+
+
+/*
+==================================
+about page styling
+=================================
+*/
+
+
+
+/*END about page===========*/
+
+
+
+ ===========*/
+
+
+
+.footer{
+   font-size: 1.2em;   
+     
+}
 
 
