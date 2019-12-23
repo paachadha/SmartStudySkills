@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css?family=Lato:700');
 @import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
@@ -34,8 +33,13 @@ h1 {
     font-size: 5.063em;
   line-height: 1;
   margin: 0 0 0.5em 0;
+  padding-top:50px;
     color: forestgreen;
     text-align: center;
+  font-size: 8.2em;
+    font-family: 'Indie Flower', cursive;
+    font-weight:800;
+    color:Brown;
 }
 
 h2 {
@@ -102,12 +106,12 @@ Start Navigation
 
 .site-nav ul {
   list-style-type: none;
-  margin: 0;
+  margin-left: 175px;
   padding: 0;
   overflow: hidden;
+  display: inline-block;
   background-color: sandybrown;
 }
-
 .site-nav li {
   float: left;
 }
@@ -251,5 +255,3 @@ about page styling
    font-size: 1.2em;   
      
 }
-
-
